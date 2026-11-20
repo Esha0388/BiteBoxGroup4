@@ -15,6 +15,8 @@ div {
     background-color: rgb(111, 128, 213);
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -28,18 +30,39 @@ div {
 } */
 
 .welcome-section {
-    background-color: brown;
+    /* background-color: brown; */
+    background-image: url('../assets/images/pasta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100vh;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
+.heading {
+    font-family: "poppins", cursive;
+    font-size: 90px;
+    font-weight: bold;
+    font-style: italic;
+   color: red;
+}
 
-
+.para {
+    height: 100px;
+    width: 600px;
+    /* background-color: blue; */
+    color: brown;
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    text-shadow:1px 1px 2px green;
+}
 
 .navbar {
     height: 80px;
@@ -47,4 +70,37 @@ div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+main {
+    width: 100%;
+    padding: 50px 8%;
+    background-color: #ffffff;
+}
+
+main section>h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #222;
+    margin: 30px 0px;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card > img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card > h2 {
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    margin: 18px 20px;
 }
