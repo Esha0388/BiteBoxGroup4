@@ -15,12 +15,12 @@ div {
     background-color: rgb(111, 128, 213);
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-}
+} */
 
 /* .welcome {
     border: 2px solid black;
@@ -29,8 +29,8 @@ div {
     margin-bottom: 30px;
 } */
 
-.welcome-section {
-    /* background-color: brown; */
+/* .welcome-section {
+    background-color: brown;
     background-image: url('../assets/images/pasta.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -51,12 +51,12 @@ div {
     font-weight: bold;
     font-style: italic;
    color: red;
-}
+} */
 
-.para {
+/* .para {
     height: 100px;
     width: 600px;
-    /* background-color: blue; */
+    background-color: blue;
     color: brown;
     text-align: center;
     text-decoration: wavy;
@@ -103,4 +103,106 @@ main section>h2 {
     font-size: 23px;
     font-family: Arial, sans-serif;
     margin: 18px 20px;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf4;
+    color: #333;
+    line-height: 1.6;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+.navbar-container {
+    background-color: #ffffff;
+    padding: 15px 6%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #ccc;
+}
+
+.links {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #e85d04;
+}
+
+.login-link {
+    margin-left: 20px;
+}
+
+.login-btn {
+    background-color: #e85d04;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #c94b00;
 }
