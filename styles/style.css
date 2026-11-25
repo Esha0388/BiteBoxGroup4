@@ -389,3 +389,31 @@ main>hr {
     height: 250px;
     object-fit: contain;
 }
+.footer-section{
+    background-color: #333;
+}
+.footer-tabs{
+    color:white;
+}
+.footer-tabs h3{
+    font-size: 25px;
+    padding: 8px 20px;
+}
+.footer-tabs ul li{
+    padding: 3px 20px;
+}
+.customer-services-section{
+    color: white;
+}
+.customer-services-section h3{
+    font-size: 25px;
+    font-size: 25px;
+    padding: 8px 20px;
+}
+.footer{
+    display: flex;
+}
+.customer-services-section ul li{
+    padding: 3px 20px;
+    list-style-type: none;
+}
