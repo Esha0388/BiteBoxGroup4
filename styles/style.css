@@ -505,7 +505,86 @@ main>hr {
     border-radius: 20px;
     font-weight: 700;
 }
+.footer-section {
+    background-color: #222;
+    color: white;
+    padding: 30px 50px 15px;
+}
 
+.footer-image {
+    display: flex;
+    align-items: center;
+}
+
+.footer-title h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 22px;
+}
+
+.footer-title img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footer-title span {
+    color: white;
+}
+
+/* Quick Links and Customer Services on right */
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 100px;
+    margin-top: -30px;
+    margin-right: 50px;
+}
+
+.footer-tabs,
+.customer-services-section {
+    min-width: 150px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: orange;
+}
+
+.footer-section hr {
+    margin-top: 30px;
+    border: 0;
+    border-top: 1px solid #666;
+}
+
+.footer-section p {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 14px;
+}
 @media(max-width:768px)
 {
     .navbar{
